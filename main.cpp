@@ -13,6 +13,6 @@ to use cipher decryption.
 
 int main()
 {
-  std::cout << solve(encryptCaesar("Example text", 2));
+  std::cout << solve(encryptCaesar("Decrypt this piece of text.", 12));
   return 0;
 }
