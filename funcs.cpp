@@ -125,7 +125,6 @@ std::string solve(std::string encrypted_string)
       }
    }
    //std::cout << result << "\n"; *This has more precision* 
-   std::cout << shift << std::endl;
    std::string fin = encryptCaesar(encrypted_string, shift);
    return fin;
 }
